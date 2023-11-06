@@ -1,0 +1,35 @@
+section {
+    margin: 10vh;
+    transition: 1s;
+    opacity: 0;
+    transform: translateY(200px);
+}
+
+section h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+    transition: 1s 1s;
+    opacity: 0;
+}
+
+section.active h1 {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+section p {
+    transition: 1.5s 1.5s;
+    opacity: 0;
+}
+
+section.active p {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+section.active {
+    opacity: 1;
+    transform: translateY(0);
+}
